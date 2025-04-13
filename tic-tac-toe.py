@@ -224,7 +224,7 @@ def play(grid = ((0, 0, 0, 0, 0), (0, 0, 0, 0, 0), (0, 0, 0, 0, 0), (0, 0, 0, 0,
                 else:
                     row.append(n[y][x])
             newgrid.append(tuple(row))
-        print(display(tuple(newgrid)))
+        display(tuple(newgrid))
         return "The AI found a 4-in-a-row, you lose."
     newgrid = tuple(n)
     newgrid = possibilities(newgrid, 2)[0]
