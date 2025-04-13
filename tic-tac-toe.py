@@ -143,10 +143,10 @@ print("   2. If your opponent has a potential 4-in-a-row, you should block it\n"
 print("Since it doesn't know anything else, it starts making random moves.")
 print("However, once the machine loses against itself, it learns that it shouldn't have played that previous move.")
 print("It remembers that mistake, and the next time it sees the same position, it doesn't repeat it.")
-print("\nAfter 250,000 games, it has been through almost every board position, knowing what to do for each.")
+print("\nAfter 250,000 games, it has been through a ton of positions, knowing what to do for each.")
 print("Now, is it perfect? Absolutely not. It can still make many mistakes. But it will, on average, win more than what it was 250,000 rounds ago.")
 print("This idea of learning from mistakes is called \"Machine Learning\", and is the basis of all major AI on earth today.")
-print("Good luck, and let's see if you can beat the bot!")
+print("Good luck, and let's see if you can beat my AI!")
 
 # Repeats 500,000 times
 for _ in range(250000):
