@@ -131,22 +131,22 @@ def game(grid, player):
         return game(g, n)
 
 # Starting Text
-print("\nHi! My name is Max, and this is a tic-tac-toe AI simulator. For starters, here are the rules:\n")
-print("   1. There is a 5x5 board, you plays as X and the AI plays as O.")
+print("\nHi! My name is Max, and this is a tic-tac-toe simulator. For starters, here are the rules:\n")
+print("   1. There is a 5x5 board, you plays as X and the computer plays as O.")
 print("   2. You will alternate turns, placing your symbol into any free cell.")
 print("   3. The first to create a 4-in-a-row (in any direction) wins.")
 print("\nSo you might now be wondering, \"Max, where is the game? I want to play!\"")
-print("You see, the AI has been preparing while you've been reading this, playing against itself 250 thousand times. Let me explain.")
-print("\n\nAt first, the AI as no idea which moves are good and which are bad, only starting with 2 rules it must follow:")
+print("You see, the computer has been preparing while you've been reading this, playing against itself 250 thousand times. Let me explain.")
+print("\n\nAt first, your machine has no idea which moves are good and which are bad, only starting with 2 rules it must follow:")
 print("\n   1. If you have a potential 4-in-a-row, you should complete it")
 print("   2. If your opponent has a potential 4-in-a-row, you should block it\n")
-print("Since the AI doesn't know anything else, it starts with just random moves.")
-print("However, once the AI loses against itself, it learns that it shouldn't have played that previous move.")
+print("Since it doesn't know anything else, it starts making random moves.")
+print("However, once the machine loses against itself, it learns that it shouldn't have played that previous move.")
 print("It remembers that mistake, and the next time it sees the same position, it doesn't repeat it.")
 print("\nAfter 250,000 games, it has been through almost every board position, knowing what to do for each.")
 print("Now, is it perfect? Absolutely not. It can still make many mistakes. But it will, on average, win more than what it was 250,000 rounds ago.")
-print("This idea of learning from mistakes is the basis of all major AI on earth, yet has been simplified for this example.")
-print("Good luck, and let's see if you can beat my AI!")
+print("This idea of learning from mistakes is called \"Machine Learning\", and is the basis of all major AI on earth today.")
+print("Good luck, and let's see if you can beat the bot!")
 
 # Repeats 500,000 times
 for _ in range(250000):
